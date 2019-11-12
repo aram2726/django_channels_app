@@ -11,3 +11,6 @@ channels = "*"
 
 [requires]
 python_version = "3.6"
+
+[scripts]
+server = "python3 manage.py run server"

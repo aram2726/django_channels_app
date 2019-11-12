@@ -12,7 +12,7 @@ $ sudo apt install rabbitmq-server
 
 ```bash
 $ sudo apt install rabbitmq-server
-$ sudo rabbitmqctl add_user phix __secret
+$ sudo rabbitmqctl add_user {my_user} {my__password}
 $ sudo rabbitmqctl add_vhost {virtual_host}
 $ sudo rabbitmqctl set_user_tags {user} {tag}
 $ sudo rabbitmqctl set_permissions -p {vhost} {user} ".*" ".*" ".*"
