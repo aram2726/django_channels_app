@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 Django = "==2.2.3"
 channels = "*"
+channels-rabbitmq = "*"
 
 [requires]
 python_version = "3.6"

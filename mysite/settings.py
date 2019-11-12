@@ -128,7 +128,7 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_rabbitmq.core.RabbitmqChannelLayer",
         "CONFIG": {
-            "host": "amqp://guest:guest@127.0.0.1/asgi",
+            "host": "amqp://channel:root@127.0.0.1:5672/channel",
         },
     },
 }
